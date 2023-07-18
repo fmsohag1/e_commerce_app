@@ -17,4 +17,8 @@ const confirmPasswordHint="******";
 const privacyPolicy="Privacy Policy";
 const termsandCondition="Terms and Condition";
 const alreadyAccount="Already have an account?";
+
+//home strings
 const home="Home",categories="Categories",cart="Cart",account="Account";
+//home screen strings
+const searchAnything="Search Anything",todayDeal="Today's Deal",flashSale="Flash Sale",topSeller="Top Seller",brand="Brand",topCategories="Top Categories",featureCategories="Featured Categories";

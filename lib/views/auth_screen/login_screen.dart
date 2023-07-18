@@ -1,7 +1,7 @@
 import 'package:e_commerce_app/const/consts.dart';
 import 'package:e_commerce_app/const/lists.dart';
 import 'package:e_commerce_app/views/auth_screen/signup_screen.dart';
-import 'package:e_commerce_app/views/home_screen/home_screen.dart';
+import 'package:e_commerce_app/views/home_screen/home.dart';
 import 'package:e_commerce_app/widgets/applogo_widget.dart';
 import 'package:e_commerce_app/widgets/bg_widget.dart';
 import 'package:e_commerce_app/widgets/custom_button.dart';
@@ -33,7 +33,7 @@ class LoginScreen extends StatelessWidget {
                       alignment: Alignment.centerRight,
                         child: TextButton(onPressed: (){}, child: forgetPassword.text.make())),
                     customButton(onPress: (){
-                      Get.to(()=>HomeScreen());
+                      Get.to(()=>Home());
                     },color: redColor,textColor: whiteColor,title: login).box.width(context.screenWidth-50).make(),
                     5.heightBox,
                     createAccount.text.color(fontGrey).make(),
