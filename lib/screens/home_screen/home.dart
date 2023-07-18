@@ -1,9 +1,9 @@
 import 'package:e_commerce_app/const/consts.dart';
 import 'package:e_commerce_app/controller/home_controller.dart';
-import 'package:e_commerce_app/views/cart_screen/cart_screen.dart';
-import 'package:e_commerce_app/views/category_screen/category_screen.dart';
-import 'package:e_commerce_app/views/home_screen/home_screen.dart';
-import 'package:e_commerce_app/views/profile_screen/profile_screen.dart';
+import 'package:e_commerce_app/screens/cart_screen/cart_screen.dart';
+import 'package:e_commerce_app/screens/category_screen/category_screen.dart';
+import 'package:e_commerce_app/screens/home_screen/home_screen.dart';
+import 'package:e_commerce_app/screens/profile_screen/profile_screen.dart';
 import 'package:get/get.dart';
 
 class Home extends StatelessWidget {

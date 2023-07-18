@@ -1,6 +1,6 @@
 import 'package:e_commerce_app/const/strings.dart';
 import 'package:e_commerce_app/const/styles.dart';
-import 'package:e_commerce_app/views/splash_screen/splash_screen.dart';
+import 'package:e_commerce_app/screens/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

@@ -1,7 +1,7 @@
 import 'package:e_commerce_app/const/colors.dart';
 import 'package:e_commerce_app/const/consts.dart';
 import 'package:e_commerce_app/const/images.dart';
-import 'package:e_commerce_app/views/auth_screen/login_screen.dart';
+import 'package:e_commerce_app/screens/auth_screen/login_screen.dart';
 import 'package:e_commerce_app/widgets/applogo_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
