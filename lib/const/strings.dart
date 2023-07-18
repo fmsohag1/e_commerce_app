@@ -17,3 +17,4 @@ const confirmPasswordHint="******";
 const privacyPolicy="Privacy Policy";
 const termsandCondition="Terms and Condition";
 const alreadyAccount="Already have an account?";
+const home="Home",categories="Categories",cart="Cart",account="Account";

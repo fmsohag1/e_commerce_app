@@ -6,10 +6,18 @@ import 'package:e_commerce_app/widgets/custom_button.dart';
 import 'package:e_commerce_app/widgets/custom_textfields.dart';
 import 'package:get/get.dart';
 
-class SignupScreen extends StatelessWidget {
+class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});
 
   @override
+  State<SignupScreen> createState() => _SignupScreenState();
+}
+
+class _SignupScreenState extends State<SignupScreen> {
+  @override
+
+  bool isCheck=false;
+
   Widget build(BuildContext context) {
     return bgWidget(
         child: Scaffold(
@@ -37,26 +45,31 @@ class SignupScreen extends StatelessWidget {
                     Row(
                       children: [
                         Checkbox(
-                          checkColor: redColor,
-                            value: false, onChanged: (newValue){}),
+                          activeColor: redColor,
+                          checkColor: whiteColor,
+                            value: isCheck, onChanged: (newValue){
+                            setState(() {
+                              isCheck=newValue!;
+                            });
+                        }),
                         Expanded(
                           child: RichText(text: TextSpan(
                             children: [
                               TextSpan(
                                 text: 'I agree to the ',
-                                style: TextStyle(fontFamily: bold,color: fontGrey)
+                                style: TextStyle(fontFamily: regular,color: fontGrey)
                               ),
                               TextSpan(
                                   text: termsandCondition,
-                                  style: TextStyle(fontFamily: bold,color: redColor)
+                                  style: TextStyle(fontFamily: regular,color: redColor)
                               ),
                               TextSpan(
                                   text: ' & ',
-                                  style: TextStyle(fontFamily: bold,color: redColor)
+                                  style: TextStyle(fontFamily: regular,color: redColor)
                               ),
                               TextSpan(
                                   text: privacyPolicy,
-                                  style: TextStyle(fontFamily: bold,color: redColor)
+                                  style: TextStyle(fontFamily: regular,color: redColor)
                               )
                             ]
                           )),
