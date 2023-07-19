@@ -1,3 +1,4 @@
+import 'package:e_commerce_app/const/colors.dart';
 import 'package:e_commerce_app/const/strings.dart';
 import 'package:e_commerce_app/const/styles.dart';
 import 'package:e_commerce_app/screens/splash_screen/splash_screen.dart';
@@ -19,7 +20,11 @@ class MyApp extends StatelessWidget {
       title: appname,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.transparent,
-        appBarTheme: AppBarTheme(backgroundColor: Colors.transparent),
+        appBarTheme: AppBarTheme(
+          iconTheme: IconThemeData(
+            color: darkFontGrey
+          ),
+            elevation:0,backgroundColor: Colors.transparent),
         fontFamily: regular,
       ),
       home: SplashScreen(),
